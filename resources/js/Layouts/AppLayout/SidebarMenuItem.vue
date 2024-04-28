@@ -78,7 +78,7 @@ const itemClick = (event, item) => {
 };
 
 const checkActiveRoute = (item) => {
-    return page.url === item.to;
+    return page.url.startsWith(item.to);
 };
 </script>
 

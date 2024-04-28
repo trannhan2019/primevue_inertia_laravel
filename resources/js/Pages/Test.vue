@@ -7,6 +7,9 @@ export default {
 
 <script setup>
 import { Head } from "@inertiajs/vue3";
+import { useTable } from "@/Composables/useTable";
+
+const { state, selectedListIds, onPageChange, onSearchChange } = useTable();
 </script>
 
 <template>

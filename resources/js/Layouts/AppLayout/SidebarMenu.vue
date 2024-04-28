@@ -12,9 +12,9 @@ const model = ref([
         label: "UI Components",
         items: [
             {
-                label: "Form Layout",
+                label: "Company",
                 icon: "pi pi-fw pi-id-card",
-                to: "/uikit/formlayout",
+                to: "/manage-company",
             },
             {
                 label: "Test",
